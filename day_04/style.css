@@ -274,24 +274,28 @@ aside {
 	float: left;
 	font-size: 24px;
 	background: url(i/surfer.jpg);
+	position: relative;
 }
 .post2 {
 	width: 325px;
 	height: 330px;
 	float: left;
 	background: url(i/beer.jpg);
+	position: relative;
 }
 .post3 {
 	width: 325px;
 	height: 330px;
 	float: left;
 	background: url(i/zack.jpg);
+	position: relative;
 }
 .post4 {
 	width: 325px;
 	height: 330px;
 	float: left;
 	background: url(i/booze.jpg);
+	position: relative;
 }
 footer {
 	float: left;
@@ -315,22 +319,23 @@ footer {
 	display: inline-block;
 }
 .post-text {
-	margin-top: 230px;
-	margin-left: 10px;
+	position: absolute;
+	bottom: 0px;
+
 	font-size: 30px;
 	width: 305px;
-	height: 80px;
-	padding-top: 20px; 
+
+
 
 }
 .post-textw {
-	margin-left: 10px;
-	margin-top: 230px;
+	position: absolute;
+	bottom: 0px;
+
 	color: white;
 	font-size: 30px;
 	width: 305px;
-	height: 80px;
-	padding-top: 20px; 
+	
 }
 
 .bottom {
