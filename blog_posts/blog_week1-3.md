@@ -1,5 +1,5 @@
 #Iron Workers Union
-##My first 3 weeks as a student at _The Iron Yard
+##My first 3 weeks as a student at _The Iron Yard_
 
 ###Week 1
 
