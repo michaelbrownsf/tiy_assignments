@@ -21,7 +21,7 @@ Grid layouts make sense to my head but coding the CSS and HTML for them doesn't 
 
 Loved this weeks assignment to sketch 10 websites trying to find their grids. I tried to make all my sketches fit a 12 column layout.
 
-	-![mashable sketch](../i/mashable.jpg "My Sketch of Mashable.com")
+	-![mashable sketch](/blog_posts/i/mashable.jpg "My Sketch of Mashable.com")
 	-![penguin publishing sketch](../i/penguin.jpg "My Sketch of Penguin Publishing web site")
 	-![new york times sketch](../i/nytimes.jpg "My Sketch of The New York Times web site")
 	-![medium.com sketch](../i/medium.jpg "My Sketch of Medium.com")
