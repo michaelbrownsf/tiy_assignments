@@ -27,7 +27,7 @@ Loved this weeks assignment to sketch 10 websites trying to find their grids. I 
 ![medium.com sketch](/blog_posts/i/medium.jpg "My Sketch of Medium.com")
 ![roomba's product page on amazon](/blog_posts/i/amazon.jpg "My Sketch of the Roomba product page on Amazon")
 ![fuzzco.com's 404 page sketch](/blog_posts/i/fuzzco.jpg "My Sketch of fuzzco.com's 404 page")
-![art of menu's sketch](/blog_posts/i/artofmeny.jpg "My Sketch of Artofthemenu.com")
+![art of menu's sketch](/blog_posts/i/artofmenu.jpg "My Sketch of Artofthemenu.com")
 ![sketch of my github profile page](/blog_posts/i/github.jpg "My sketch of my Github profile page")
 ![sketch of nest.com](/blog_posts/i/nest.jpg "My Sketch of nest.com")
 ![sketch of time magazine's website](/blog_posts/i/timemag.jpg "My Sketch of Time Magazine's web site)
