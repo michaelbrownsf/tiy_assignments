@@ -30,7 +30,7 @@ Loved this weeks assignment to sketch 10 websites trying to find their grids. I 
 ![art of menu's sketch](/blog_posts/i/artofmenu.jpg "My Sketch of Artofthemenu.com")
 ![sketch of my github profile page](/blog_posts/i/mygit.jpg "My sketch of my Github profile page")
 ![sketch of nest.com](/blog_posts/i/nest.jpg "My Sketch of nest.com")
-![sketch of time magazine's website](/blog_posts/i/timemag.jpg "My Sketch of Time Magazine's web site")
+![sketch of time magazine's website](/blog_posts/i/timemag.jpg "My Sketch of Time Magazine's web site" )
 
 This was a relaxed and calming homework excercise. I plan to pick apart my favorite websites over the next few days as practice.
 
