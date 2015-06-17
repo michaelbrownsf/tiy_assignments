@@ -1,0 +1,591 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+p {
+  padding: 10px; }
+
+img {
+  vertical-align: middle;
+  margin-right: 10px; }
+
+li {
+  list-style-type: none; }
+
+a {
+  color: #106db3; }
+
+a:visited {
+  color: #a3b3bf; }
+
+body {
+  font-family: helvetica;
+  font-size: 100%;
+  line-height: 1.4; }
+
+h5 {
+  color: #106db3;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-left: 10px; }
+
+h4 {
+  color: #106db3;
+  font-style: italic;
+  font-size: 22px;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: #a3b3bf; }
+
+h3 {
+  font-size: 20px;
+  padding: 10px;
+  color: #083452; }
+
+h2 {
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px; }
+
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  color: white; }
+
+.bodytext {
+  font-size: 16px;
+  margin-bottom: 10px; }
+
+.page {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%; }
+
+.container1 {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  height: 140px;
+  background: #106db3;
+  background-image: none;
+  font-color: white; }
+
+.article {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%; }
+
+.logo {
+  margin-left: 10px;
+  float: left;
+  vertical-align: middle;
+  font-size: 10px;
+  font-weight: bold;
+  color: #083452; }
+
+.title {
+  width: 100%;
+  vertical-align: bottom;
+  float: left; }
+
+.search {
+  font-size: 10px;
+  color: #083452;
+  font-weight: bold;
+  float: right;
+  margin-top: 9px; }
+
+.about {
+  float: right;
+  font-size: 10px;
+  color: #083452;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-right: 5px; }
+  .about .boxlinks1 {
+    width: 33.333%;
+    height: 30px;
+    background: #a3b3bf;
+    font-size: 11px;
+    color: white;
+    vertical-align: middle;
+    margin-right: 10px;
+    text-align: left; }
+  .about .boxlinks2 {
+    width: 33.333%;
+    height: 30px;
+    float: left;
+    background: #a3b3bf;
+    font-size: 11px;
+    color: white;
+    vertical-align: middle;
+    margin-right: 10px; }
+  .about .boxlinks3 {
+    width: 33.333%;
+    height: 30px;
+    float: left;
+    background: #106db3;
+    font-size: 11px;
+    color: white;
+    vertical-align: middle;
+    margin-right: 10px; }
+  .about .darkgrey {
+    background: #5e686f; }
+  .about .lightgrey {
+    background: #a3b3bf; }
+  .about .darkblue {
+    background: #083452; }
+  .about .medblue {
+    background: #106db3; }
+  .about .hrgrey {
+    width: 1300px;
+    height: 1px;
+    background: #a3b3bf;
+    float: left;
+    margin-bottom: 50px;
+    margin-top: 50px; }
+  .about .popular {
+    width: 1300px;
+    float: left;
+    font-size: 40px;
+    color: #083452; }
+  .about .popularposts {
+    font-size: 40px;
+    color: #083452;
+    text-align: center;
+    margin-bottom: 50px; }
+  .about .post1 {
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    background: url(../i/surfer.jpg);
+    position: relative; }
+  .about .post2 {
+    width: 325px;
+    height: 330px;
+    float: left;
+    background: url(../i/beer.jpg);
+    position: relative; }
+  .about .post3 {
+    width: 325px;
+    height: 330px;
+    float: left;
+    background: url(../i/zack.jpg);
+    position: relative; }
+  .about .post4 {
+    width: 325px;
+    height: 330px;
+    float: left;
+    background: url(../i/booze.jpg);
+    position: relative; }
+  .about footer {
+    float: left;
+    width: 1300px;
+    height: 100px;
+    background: #083452; }
+  .about .foot {
+    margin-top: 30px;
+    vertical-align: middle;
+    padding-left: 160px;
+    text-align: left;
+    float: left; }
+  .about .white {
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 5px;
+    clear: left;
+    display: inline-block; }
+  .about .post-text {
+    position: absolute;
+    bottom: 0px;
+    font-size: 30px;
+    width: 305px; }
+  .about .post-textw {
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    font-size: 30px;
+    width: 305px; }
+  .about footer {
+    width: 100%;
+    height: 100px;
+    background: #083452; }
+  .about .foot {
+    background: #083452;
+    vertical-align: middle; }
+
+@media (min-width: 500px) {
+  img {
+    vertical-align: middle;
+    margin-right: 10px; }
+
+  li {
+    list-style-type: none; }
+
+  a {
+    color: #106db3; }
+
+  a:visited {
+    color: #a3b3bf; }
+
+  body {
+    font-family: helvetica;
+    font-size: 100%; }
+
+  h5 {
+    color: #106db3;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px; }
+
+  h4 {
+    color: #106db3;
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #a3b3bf; }
+
+  h3 {
+    font-size: 35px;
+    color: #083452; }
+
+  h2 {
+    font-size: 12px;
+    text-align: center;
+    color: white; }
+
+  h1 {
+    font-size: 85px;
+    font-weight: bold;
+    text-align: center;
+    color: white; }
+
+  .bodytext {
+    font-size: 16px;
+    margin-bottom: 10px; }
+
+  .page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    clear: left; }
+
+  .container1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    height: 520px;
+    background: url(../i/mainphoto.jpg); }
+
+  .article {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    float: left; }
+
+  .article-spacer {
+    width: 90px; }
+
+  header {
+    width: 100%; }
+
+  .logo {
+    margin-left: 100px;
+    margin-top: 10px;
+    float: left;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: bold;
+    color: #083452; }
+
+  .title {
+    margin-top: 100px;
+    height: 300px;
+    width: 1300px;
+    vertical-align: bottom;
+    float: left; }
+
+  .search {
+    font-size: 14px;
+    color: #083452;
+    font-weight: bold;
+    float: right;
+    margin-right: 100px;
+    margin-left: 20px;
+    margin-top: 10px; }
+
+  .about {
+    font-size: 14px;
+    color: #083452;
+    font-weight: bold;
+    float: right;
+    margin-left: 20px;
+    margin-top: 16px; }
+
+  .space80 {
+    width: 1300px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .lspace160 {
+    width: 160px;
+    height: 600px;
+    float: left; }
+
+  .lspace90 {
+    width: 90px;
+    float: left;
+    background: #BADA55; }
+
+  .rspace90 {
+    padding-left: 90px; }
+
+  .social {
+    float: left;
+    width: 535px; }
+
+  aside {
+    float: right;
+    width: 440px;
+    text-align: center; }
+
+  .emil {
+    margin-bottom: 30px; }
+
+  .emil25 {
+    float: left;
+    font-size: 11px;
+    color: #a3b3bf; }
+
+  .social-link {
+    font-size: 11px;
+    color: #a3b3bf;
+    text-decoration: none;
+    margin-right: 5px; }
+
+  .ad-link {
+    font-size: 11px;
+    color: #a3b3bf;
+    text-align: right;
+    float: right; }
+
+  .bottom {
+    clear: left;
+    padding-top: 20px; }
+
+  .vspace50 {
+    height: 50px; }
+
+  .aboutlink {
+    margin-left: 50px;
+    width: 278px; }
+
+  .vspace25 {
+    height: 25px;
+    width: 100%; }
+
+  .ad {
+    height: 300px;
+    text-align: center; }
+
+  .adimg {
+    width: 278px;
+    text-align: right; }
+
+  .sidebar {
+    text-align: left;
+    float: left;
+    width: 278px;
+    font-size: 11px;
+    color: #a3b3bf;
+    margin-left: 85px; }
+
+  .oct7 {
+    float: left;
+    font-size: 14px;
+    color: #5e686f;
+    width: 600px;
+    margin-top: 25px; }
+
+  .boxlinks1 {
+    width: 158px;
+    height: 30px;
+    background: #a3b3bf;
+    font-size: 11px;
+    color: white;
+    vertical-align: middle;
+    margin-right: 10px;
+    float: left;
+    text-align: left; }
+
+  .boxlinks2 {
+    width: 158px;
+    height: 30px;
+    float: left;
+    background: #a3b3bf;
+    font-size: 11px;
+    color: white;
+    vertical-align: middle;
+    margin-right: 10px; }
+
+  .boxlinks3 {
+    width: 140px;
+    height: 30px;
+    float: left;
+    background: #106db3;
+    font-size: 11px;
+    color: white;
+    vertical-align: middle;
+    margin-right: 10px; }
+
+  .darkgrey {
+    background: #5e686f; }
+
+  .lightgrey {
+    background: #a3b3bf; }
+
+  .darkblue {
+    background: #083452; }
+
+  .medblue {
+    background: #106db3; }
+
+  .hrgrey {
+    width: 1300px;
+    height: 1px;
+    background: #a3b3bf;
+    float: left;
+    margin-bottom: 50px;
+    margin-top: 50px; }
+
+  .popular {
+    width: 1300px;
+    float: left;
+    font-size: 40px;
+    color: #083452; }
+
+  .popularposts {
+    font-size: 40px;
+    color: #083452;
+    text-align: center;
+    margin-bottom: 50px; }
+
+  .post1 {
+    width: 325px;
+    height: 330px;
+    float: left;
+    font-size: 24px;
+    background: url(../i/surfer.jpg);
+    position: relative; }
+
+  .post2 {
+    width: 325px;
+    height: 330px;
+    float: left;
+    background: url(../i/beer.jpg);
+    position: relative; }
+
+  .post3 {
+    width: 325px;
+    height: 330px;
+    float: left;
+    background: url(../i/zack.jpg);
+    position: relative; }
+
+  .post4 {
+    width: 325px;
+    height: 330px;
+    float: left;
+    background: url(../i/booze.jpg);
+    position: relative; }
+
+  footer {
+    float: left;
+    width: 1300px;
+    height: 100px;
+    background: #083452; }
+
+  .foot {
+    margin-top: 30px;
+    vertical-align: middle;
+    padding-left: 160px;
+    text-align: left;
+    float: left; }
+
+  .white {
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 5px;
+    clear: left;
+    display: inline-block; }
+
+  .post-text {
+    position: absolute;
+    bottom: 0px;
+    font-size: 30px;
+    width: 305px; }
+
+  .post-textw {
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    font-size: 30px;
+    width: 305px; } }
+
+/*# sourceMappingURL=style.css.map */
