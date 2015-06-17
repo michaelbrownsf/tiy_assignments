@@ -151,118 +151,145 @@ h1 {
   font-weight: bold;
   margin-top: 15px;
   margin-right: 5px; }
-  .about .boxlinks1 {
-    width: 33.333%;
-    height: 30px;
-    background: #a3b3bf;
-    font-size: 11px;
-    color: white;
-    vertical-align: middle;
-    margin-right: 10px;
-    text-align: left; }
-  .about .boxlinks2 {
-    width: 33.333%;
-    height: 30px;
-    float: left;
-    background: #a3b3bf;
-    font-size: 11px;
-    color: white;
-    vertical-align: middle;
-    margin-right: 10px; }
-  .about .boxlinks3 {
-    width: 33.333%;
-    height: 30px;
-    float: left;
-    background: #106db3;
-    font-size: 11px;
-    color: white;
-    vertical-align: middle;
-    margin-right: 10px; }
-  .about .darkgrey {
-    background: #5e686f; }
-  .about .lightgrey {
-    background: #a3b3bf; }
-  .about .darkblue {
-    background: #083452; }
-  .about .medblue {
-    background: #106db3; }
-  .about .hrgrey {
-    width: 1300px;
-    height: 1px;
-    background: #a3b3bf;
-    float: left;
-    margin-bottom: 50px;
-    margin-top: 50px; }
-  .about .popular {
-    width: 1300px;
-    float: left;
-    font-size: 40px;
-    color: #083452; }
-  .about .popularposts {
-    font-size: 40px;
-    color: #083452;
-    text-align: center;
-    margin-bottom: 50px; }
-  .about .post1 {
-    width: 100%;
-    float: left;
-    font-size: 24px;
-    background: url(../i/surfer.jpg);
-    position: relative; }
-  .about .post2 {
-    width: 325px;
-    height: 330px;
-    float: left;
-    background: url(../i/beer.jpg);
-    position: relative; }
-  .about .post3 {
-    width: 325px;
-    height: 330px;
-    float: left;
-    background: url(../i/zack.jpg);
-    position: relative; }
-  .about .post4 {
-    width: 325px;
-    height: 330px;
-    float: left;
-    background: url(../i/booze.jpg);
-    position: relative; }
-  .about footer {
-    float: left;
-    width: 1300px;
-    height: 100px;
-    background: #083452; }
-  .about .foot {
-    margin-top: 30px;
-    vertical-align: middle;
-    padding-left: 160px;
-    text-align: left;
-    float: left; }
-  .about .white {
-    color: white;
-    font-size: 14px;
-    text-align: left;
-    margin-left: 5px;
-    clear: left;
-    display: inline-block; }
-  .about .post-text {
-    position: absolute;
-    bottom: 0px;
-    font-size: 30px;
-    width: 305px; }
-  .about .post-textw {
-    position: absolute;
-    bottom: 0px;
-    color: white;
-    font-size: 30px;
-    width: 305px; }
-  .about footer {
-    width: 100%;
-    height: 100px;
-    background: #083452; }
-  .about .foot {
-    background: #083452;
-    vertical-align: middle; }
+
+.boxlinks1 {
+  float: left;
+  width: 32%;
+  height: 30px;
+  background: #a3b3bf;
+  font-size: 11px;
+  color: white;
+  vertical-align: middle;
+  margin-right: 1%;
+  text-align: left; }
+
+.boxlinks2 {
+  width: 32%;
+  height: 30px;
+  float: left;
+  background: #a3b3bf;
+  font-size: 11px;
+  color: white;
+  vertical-align: middle;
+  margin-right: 1%; }
+
+.boxlinks3 {
+  width: 32%;
+  height: 30px;
+  float: left;
+  background: #106db3;
+  font-size: 11px;
+  color: white;
+  vertical-align: middle;
+  margin-right: 1%; }
+
+.darkgrey {
+  background: #5e686f; }
+
+.lightgrey {
+  background: #a3b3bf; }
+
+.darkblue {
+  background: #083452; }
+
+.medblue {
+  background: #106db3; }
+
+.hrgrey {
+  width: 100%;
+  height: 1px;
+  background: #a3b3bf;
+  float: left;
+  margin-bottom: 50px;
+  margin-top: 50px; }
+
+.popular {
+  width: 100%;
+  float: left;
+  font-size: 40px;
+  color: #083452; }
+
+.popularposts {
+  font-size: 40px;
+  color: #083452;
+  text-align: center;
+  margin-bottom: 50px; }
+
+.post1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 325px;
+  height: 330px;
+  font-size: 24px;
+  background: url(../i/surfer.jpg);
+  position: relative; }
+
+.post2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 325px;
+  height: 330px;
+  background: url(../i/beer.jpg);
+  position: relative; }
+
+.post3 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 325px;
+  height: 330px;
+  background: url(../i/zack.jpg);
+  position: relative; }
+
+.post4 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 325px;
+  height: 330px;
+  background: url(../i/booze.jpg);
+  position: relative; }
+
+footer {
+  float: left;
+  width: 100%;
+  height: 100px;
+  background: #083452; }
+
+.foot {
+  margin-top: 30px;
+  vertical-align: middle;
+  padding-left: 5px;
+  text-align: left;
+  float: left; }
+
+.white {
+  color: white;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 5px;
+  clear: left;
+  display: inline-block; }
+
+.post-text {
+  position: absolute;
+  bottom: 0px;
+  font-size: 30px;
+  width: 305px; }
+
+.post-textw {
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  font-size: 30px;
+  width: 305px; }
+
+footer {
+  width: 100%;
+  height: 100px;
+  background: #083452; }
+
+.foot {
+  background: #083452;
+  vertical-align: middle; }
 
 @media (min-width: 500px) {
   img {
