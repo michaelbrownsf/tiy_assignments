@@ -1,5 +1,4 @@
 @import "reset";
-@import "color";
 
 p {
     padding: 10px;
@@ -32,8 +31,9 @@ h5 {
     color: #106db3;
     font-size: 14px;
     font-weight: bold;
-    margin-bottom: 5px;
-    margin-left: 10px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-top: 20px;
 }
 
 h4 {
@@ -66,7 +66,7 @@ h1 {
     font-weight: bold;
     text-align: center;
     color: white;
-    // padding-top: 150px;
+    padding-top: 30px;
 }
 
 .bodytext {
@@ -84,7 +84,7 @@ h1 {
     margin-left: 0;
     margin-right: 0;
     width: 100%;
-    height: 140px;
+    height: 180px;
     background: #106db3;
     background-image: none;
     font-color: white;
@@ -97,7 +97,7 @@ h1 {
 }
 
 .logo {
-  	margin-left: 10px;
+    margin-left: 10px;
     // margin-top: 10px;
     float: left;
     vertical-align: middle;
@@ -128,37 +128,431 @@ h1 {
     margin-top: 15px;
     margin-right: 5px;
 }
-    .boxlinks1 {
 
+.emil {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+.emil25 {
+        clear: left;
+        font-size: 11px;
+        color: #a3b3bf;
+        margin-left: 5px;
+    }
+
+.boxlinks1 {
+
+    width: 150px;
+    height: 30px;
+    background: #a3b3bf;
+    font-size: 11px;
+    color: white;
+    vertical-align: middle;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+
+}
+
+.boxlinks2 {
+    width: 150px;
+    height: 30px;
+    background: #a3b3bf;
+    font-size: 11px;
+    color: white;
+    vertical-align: middle;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    text-align: left;
+
+}
+
+
+.boxlinks3 {
+    width: 150px;
+    height: 30px;
+    background: #106db3;
+    font-size: 11px;
+    color: white;
+    vertical-align: middle;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    text-align: left;
+
+}
+
+.ad {
+    margin: 0 auto;
+    height: 300px;
+    text-align: center;
+}
+
+.adimg {
+    width: 100%;
+    text-align: right;
+}
+
+.darkgrey {
+    background: #5e686f;
+}
+
+.lightgrey {
+    background: #a3b3bf;
+}
+
+.darkblue {
+    background: #083452;
+}
+
+.medblue {
+    background: #106db3;
+}
+
+.hrgrey {
+   width: 100%;
+   height: 1px;
+   background: #a3b3bf;
+   margin-bottom: 50px;
+   margin-top: 50px;
+}
+
+.popular {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #083452;
+}
+
+.popularposts {
+    font-size: 20px;
+    color: #083452;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.post1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 325px;
+    height: 165px;
+    font-size: 24px;
+    background: url(../i/surfer.jpg);
+    position: relative;
+}
+
+.post2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 325px;
+    height: 165px;
+    background: url(../i/beer.jpg);
+    position: relative;
+}
+
+.post3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 325px;
+    height: 165px;
+    background: url(../i/zack.jpg);
+    position: relative;
+}
+
+.post4 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 325px;
+    height: 165px;
+    background: url(../i/booze.jpg);
+    position: relative;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    height: 100px;
+    background: #083452;
+}
+
+.foot {
+    margin-top: 30px;
+    vertical-align: middle;
+    padding-left: 5px;
+    text-align: left;
+    float: left;
+}
+
+.white {
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 5px;
+    clear: left;
+    display: inline-block;
+}
+
+.post-text {
+    position: absolute;
+    bottom: 0px;
+    font-size: 30px;
+    width: 305px;
+}
+
+.post-textw {
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    font-size: 30px;
+    width: 305px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background: #083452;
+}
+
+.foot {
+    background: #083452;
+    // margin-top: 30px;
+    vertical-align: middle;
+    // padding-left: 160px;
+    // text-align: left;
+    // float: left;
+}
+
+@media (min-width: 500px) {
+    img {
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    li {
+        list-style-type: none;
+    }
+    a {
+        color: #106db3;
+    }
+    a:visited {
+        color: #a3b3bf;
+    }
+    body {
+        font-family: helvetica;
+        font-size: 100%;
+    }
+    h5 {
+        color: #106db3;
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    h4 {
+        color: #106db3;
+        font-style: italic;
+        font-size: 30px;
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-left-color: #a3b3bf;
+    }
+    h3 {
+        font-size: 35px;
+        color: #083452;
+    }
+    h2 {
+        font-size: 12px;
+        text-align: center;
+        color: white;
+    }
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        // padding-top: 150px;
+   
+    }
+    .bodytext {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .page {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1300px;
+        width: 100%;
+        clear: left;
+    }
+    .container1 {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: 180px;
+    background: #106db3;
+    background-image: none;
+    font-color: white;
+}
+
+.article {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 10px;
+    // margin-top: 10px;
+    float: left;
+    vertical-align: middle;
+    font-size: 10px;
+    font-weight: bold;
+    color: #083452;
+}
+
+.title {
+    width: 100%;
+    vertical-align: bottom;
+    float: left;
+}
+
+.search {
+    font-size: 10px;
+    color: #083452;
+    font-weight: bold;
+    float: right;
+    margin-top: 9px;
+}
+
+.about {
+    float: right;
+    font-size: 10px;
+    color: #083452;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+    .space80 {
+        max-width: 1300px;
+        width: 100%;
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .lspace160 {
+        display: none;
+        width: 160px;
+        height: 600px;
         float: left;
-        width: 32%;
+    }
+    .lspace90 {
+        width: 90px;
+        float: left;
+        background: #BADA55;
+    }
+    .rspace90 {
+        padding-left: 90px;
+    }
+
+    aside {
+        float: right;
+        text-align: center;
+    }
+    .emil {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .emil25 {
+        float: left;
+        font-size: 11px;
+        color: #a3b3bf;
+    }
+    .social-link {
+        font-size: 11px;
+        color: #a3b3bf;
+        text-decoration: none;
+        margin-right: 5px;
+    }
+    .ad-link {
+        font-size: 11px;
+        color: #a3b3bf;
+        text-align: right;
+        float: right;
+        margin-bottom: 20px;
+    }
+    .bottom {
+        clear: left;
+        padding-top: 20px;
+    }
+    .vspace50 {
+        height: 50px;
+    }
+    .aboutlink {
+        margin-left: 50px;
+        width: 100%;
+    }
+    .vspace25 {
+        height: 25px;
+        width: 100%;
+    }
+    .ad {
+        height: 300px;
+        text-align: center;
+    }
+    .adimg {
+        width: 100%;
+        text-align: right;
+    }
+    .sidebar {
+        text-align: left;
+        float: left;
+        width: 100%;
+        font-size: 11px;
+        color: #a3b3bf;
+        margin-left: 85px;
+    }
+    .oct7 {
+        float: none;
+        font-size: 14px;
+        color: #5e686f;
+        width: 100%;
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+    .boxlinks1 {
+        width: 30%;
         height: 30px;
         background: #a3b3bf;
         font-size: 11px;
         color: white;
         vertical-align: middle;
-        margin-right: 1%;
+        margin-right: 10px;
+        float: left;
         text-align: left;
     }
     .boxlinks2 {
-        width: 32%;
+        width: 30%;
         height: 30px;
         float: left;
         background: #a3b3bf;
         font-size: 11px;
         color: white;
         vertical-align: middle;
-        margin-right: 1%;
+        margin-right: 10px;
+        margin-top: 0px;
     }
     .boxlinks3 {
-        width: 32%;
+        width: 30%;
         height: 30px;
         float: left;
         background: #106db3;
         font-size: 11px;
         color: white;
         vertical-align: middle;
-        margin-right: 1%;
+        margin-right: 10px;
+        margin-top: 0px;
     }
     .darkgrey {
         background: #5e686f;
@@ -173,6 +567,7 @@ h1 {
         background: #106db3;
     }
     .hrgrey {
+        max-width: 1300px;
         width: 100%;
         height: 1px;
         background: #a3b3bf;
@@ -181,6 +576,7 @@ h1 {
         margin-top: 50px;
     }
     .popular {
+        max-width: 1300px;
         width: 100%;
         float: left;
         font-size: 40px;
@@ -193,40 +589,37 @@ h1 {
         margin-bottom: 50px;
     }
     .post1 {
-        margin-left: auto;
-        margin-right: auto;
-        width: 325px;
+        width: 25%;
         height: 330px;
+        float: left;
         font-size: 24px;
         background: url(../i/surfer.jpg);
         position: relative;
     }
     .post2 {
-        margin-left: auto;
-        margin-right: auto;
-        width: 325px;
+        width: 25%;
         height: 330px;
+        float: left;
         background: url(../i/beer.jpg);
         position: relative;
     }
     .post3 {
-        margin-left: auto;
-        margin-right: auto;
-        width: 325px;
+        width: 25%;
         height: 330px;
+        float: left;
         background: url(../i/zack.jpg);
         position: relative;
     }
     .post4 {
-        margin-left: auto;
-        margin-right: auto;
-        width: 325px;
+        width: 25%;
         height: 330px;
+        float: left;
         background: url(../i/booze.jpg);
         position: relative;
     }
     footer {
         float: left;
+        max-width: 1300px;
         width: 100%;
         height: 100px;
         background: #083452;
@@ -234,7 +627,7 @@ h1 {
     .foot {
         margin-top: 30px;
         vertical-align: middle;
-        padding-left: 5px;
+        // padding-left: 160px;
         text-align: left;
         float: left;
     }
@@ -247,34 +640,23 @@ h1 {
         display: inline-block;
     }
     .post-text {
+        margin-left: 10px;
         position: absolute;
         bottom: 0px;
-        font-size: 30px;
-        width: 305px;
+        font-size: 20px;
+        width: 100%;
     }
     .post-textw {
+        margin-left: 10px;
         position: absolute;
         bottom: 0px;
         color: white;
-        font-size: 30px;
-        width: 305px;
-    }
-    footer {
+        font-size: 20px;
         width: 100%;
-        height: 100px;
-        background: #083452;
     }
-    .foot {
-    	 background: #083452;
-        // margin-top: 30px;
-        vertical-align: middle;
-        // padding-left: 160px;
-        // text-align: left;
-        // float: left;
-   
-    } 
+}
 
-@media (min-width: 500px) {
+@media (min-width: 900px) {
     img {
         vertical-align: middle;
         margin-right: 10px;
@@ -333,21 +715,25 @@ h1 {
     .page {
         margin-left: auto;
         margin-right: auto;
-        width: 1300px;
+        max-width: 1300px;
+        width: 100%;
         clear: left;
     }
     .container1 {
         margin-left: auto;
         margin-right: auto;
-        width: 1300px;
+        max-width: 1300px;
+        width: 100%;
         height: 520px;
         background: url(../i/mainphoto.jpg);
     }
     .article {
         margin-left: auto;
         margin-right: auto;
-        width: 600px;
+        width: 50%;
         float: left;
+        padding-right: 40px;
+        box-sizing: border-box;
     }
     .article-spacer {
         width: 90px;
@@ -366,8 +752,8 @@ h1 {
     }
     .title {
         margin-top: 100px;
-        height: 300px;
-        width: 1300px;
+        max-width: 1300px;
+        width: 100%;
         vertical-align: bottom;
         float: left;
     }
@@ -389,15 +775,15 @@ h1 {
         margin-top: 16px;
     }
     .space80 {
-        width: 1300px;
+        max-width: 1300px;
+        width: 100%;
         height: 80px;
         margin-left: auto;
         margin-right: auto;
     }
     .lspace160 {
-        width: 160px;
-        height: 600px;
-        float: left;
+        display: block;
+    
     }
     .lspace90 {
         width: 90px;
@@ -409,15 +795,20 @@ h1 {
     }
     .social {
         float: left;
-        width: 535px;
+        width: 30%;
+        box-sizing: border-box;
+            img {
+                margin-right: 0px;
+            }
     }
     aside {
         float: right;
-        width: 440px;
         text-align: center;
+        width: 100%;
     }
     .emil {
         margin-bottom: 30px;
+        margin-top: 30px;
     }
     .emil25 {
         float: left;
@@ -435,6 +826,7 @@ h1 {
         color: #a3b3bf;
         text-align: right;
         float: right;
+        margin-bottom: 20px;
     }
     .bottom {
         clear: left;
@@ -445,7 +837,7 @@ h1 {
     }
     .aboutlink {
         margin-left: 50px;
-        width: 278px;
+        width: 100%;
     }
     .vspace25 {
         height: 25px;
@@ -456,23 +848,24 @@ h1 {
         text-align: center;
     }
     .adimg {
-        width: 278px;
+        width: 100%;
         text-align: right;
     }
     .sidebar {
         text-align: left;
         float: left;
-        width: 278px;
+        width: 100%;
         font-size: 11px;
         color: #a3b3bf;
-        margin-left: 85px;
+        margin-left: 25px;
     }
     .oct7 {
         float: left;
         font-size: 14px;
         color: #5e686f;
-        width: 600px;
+        width: 100%;
         margin-top: 25px;
+        margin-left: 10px;
     }
     .boxlinks1 {
         width: 158px;
@@ -518,7 +911,8 @@ h1 {
         background: #106db3;
     }
     .hrgrey {
-        width: 1300px;
+        max-width: 1300px;
+        width: 100%;
         height: 1px;
         background: #a3b3bf;
         float: left;
@@ -526,7 +920,8 @@ h1 {
         margin-top: 50px;
     }
     .popular {
-        width: 1300px;
+        max-width: 1300px;
+        width: 100%;
         float: left;
         font-size: 40px;
         color: #083452;
@@ -538,7 +933,7 @@ h1 {
         margin-bottom: 50px;
     }
     .post1 {
-        width: 325px;
+        width: 25%;
         height: 330px;
         float: left;
         font-size: 24px;
@@ -546,21 +941,21 @@ h1 {
         position: relative;
     }
     .post2 {
-        width: 325px;
+        width: 25%;
         height: 330px;
         float: left;
         background: url(../i/beer.jpg);
         position: relative;
     }
     .post3 {
-        width: 325px;
+        width: 25%;
         height: 330px;
         float: left;
         background: url(../i/zack.jpg);
         position: relative;
     }
     .post4 {
-        width: 325px;
+        width: 25%;
         height: 330px;
         float: left;
         background: url(../i/booze.jpg);
@@ -568,7 +963,8 @@ h1 {
     }
     footer {
         float: left;
-        width: 1300px;
+        max-width: 1300px;
+        width: 100%;
         height: 100px;
         background: #083452;
     }
@@ -588,12 +984,14 @@ h1 {
         display: inline-block;
     }
     .post-text {
+        margin-left: 10px;
         position: absolute;
         bottom: 0px;
         font-size: 30px;
         width: 305px;
     }
     .post-textw {
+        margin-left: 10px;
         position: absolute;
         bottom: 0px;
         color: white;
