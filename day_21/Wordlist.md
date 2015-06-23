@@ -3,27 +3,41 @@ Wordlist for El Tacorrido Sur
 
 People:
 
-   * On the Go
-   * Young
-   * Hip
-   * Urban
+   * Families
+   * Adults
+   * Children
+   * Locals
+   * Pre-game revelers
+
 
 Places: 
 
-   * South Austin
+   * Kyle
+   * Buda
+   * San Marcos
+   * Sequin
    * Mexico
-   * Drive Through
+   
 
 
 Things: 
 
    * Tacos
    * Tortillas
-   * Chips
-   * Fresh Ingredients 
+   * Best Chips EVER
+   * Nachos
+   * Quesadilla
+   * Fresh Ingredients
    * Salsa
    * Guacamole
    * Queso
    * Pork
    * Beef
    * Chicken
+   * Menudo
+   * Caldo
+   * Breakfast 
+   * Lunch
+   * Dinner
+   * Family Owned
+   * Friendly Staff
