@@ -1,0 +1,50 @@
+
+a {
+  margin-right: 40px;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: bold;
+  vertical-align: bottom;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.container {
+  margin-right: auto;
+  margin-left: auto
+ 
+}
+
+.header {
+  width: 1280px;
+  height: 50px;
+  outline: 1px;
+  outline-style: solid;
+  outline-color: black;
+}
+
+.title {
+  float: left;
+}
+
+.nav {
+  float: right;
+}
+
+.navtext {
+  margin-top 40px
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: bold;
+  vertical-align: middle;
+  
+}
+
+.largeimg{
+	clear: left;
+}
