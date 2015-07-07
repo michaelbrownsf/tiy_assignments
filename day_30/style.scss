@@ -1,51 +1,55 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Poller+One|Montserrat:400,700);
 
 body {
     font-family: 'Montserrat', sans-serif;
-
-    
 }
 
 ul {
-    list-style-image: url(pattern.png);
-
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-size: 16px;
 }
 
 p {
+    font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     font-size: 16px;
-
-       } 
-
-p, h1, h2, h3, h4, h5 {
-    background-color: rgba (255, 255, 255, 0.8);
 }
 
 h1 {
+    z-index: 1000;
+    overflow: hidden;
     background-color: white;
+    font-family: 'Poller One', cursive;
+    font-size: 10em;
+    font-size: 160px;
+    color: white;
+    text-shadow: .03em .03em 1px white, .03em -.03em 1px black,-.03em -.03em 1px white, -.03em .03em 1px black,-.055em .055em 1px gray;
+    -webkit-mask-image: url(pattern.jpg);
     &:before {
-
         content: "";
         display: block;
-        width: 300x;
+        overflow: hidden;
+        width: 300px;
         height: 300px;
-        background: url(spinner2.png);
+        background: url(spinner1.png);
         background-repeat: no-repeat;
         background-position: left;
-        z-index: 1000;
+        z-index: 0;
         -webkit-animation-name: spin;
-        -webkit-animation-duration: 40000ms;
+        -webkit-animation-duration: 10000ms;
         -webkit-animation-iteration-count: infinite;
         -webkit-animation-timing-function: linear;
         -moz-animation-name: spin;
-        -moz-animation-duration: 40000ms;
+        -moz-animation-duration: 10000ms;
         -moz-animation-iteration-count: infinite;
         -moz-animation-timing-function: linear;
         -ms-animation-name: spin;
-        -ms-animation-duration: 40000ms;
+        -ms-animation-duration: 10000ms;
         -ms-animation-iteration-count: infinite;
         -ms-animation-timing-function: linear;
         -o-transition: rotate(3600deg);
+        transform-origin: 150px 150px;
         @keyframes spin {
             0% {
                 transform: rotate(0deg);
@@ -68,9 +72,6 @@ h1 {
             }
         }
     }
-
-
-
     &:after {
         content: "";
         display: block;
@@ -82,36 +83,37 @@ h1 {
         border: 3px solid black;
         position: relative;
     }
-}
-
-h2 {
-    background-color: white;
-    &:after {
-        content: "";
-        display: block;
-        width: 100%;
-        height: 100px;
+    h2 {
         background-color: white;
-        background: url(pattern2.jpg);
-        background-size: 15%;
-        border: 3px solid black;
-        position: relative;
-
-
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2em;
+        font-size: 32px;
+        &:after {
+            content: "";
+            display: block;
+            width: 90%;
+            height: 100px;
+            background-color: white;
+            background: url(pattern2.jpg);
+            background-size: 15%;
+            border: 3px solid black;
+            position: relative;
+        }
     }
-}
-
-h3 {
-    background-color: white;
-    &:after {
-        content: "";
-        display: block;
-        width: 100%;
-        height: 100px;
+    h3 {
         background-color: white;
-        background: url(pattern.jpg);
-        background-size: 15%;
-        border: 3px solid black;
-        position: relative;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2em;
+        font-size: 32px;
+        &:after {
+            content: "";
+            position: absolute;
+            width: 90%;
+            height: 50px;
+            background-color: #5a5a5a;
+            background: url(pattern.jpg);
+            background-size: 15%;
+            border: 3px solid black;
+        }
     }
 }
