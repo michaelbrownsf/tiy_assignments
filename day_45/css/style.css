@@ -1,0 +1,232 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*! responsive-nav.js 1.0.39 by @viljamis */
+.nav-collapse {
+  background-color: #222b30; }
+
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+  overflow: hidden;
+  background-color: #222b30; }
+
+.nav-collapse li {
+  float: left;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #222b30; }
+
+.nav-collapse a {
+  color: white;
+  text-decoration: none;
+  background-color: #222b30; }
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+  background-color: #222b30; }
+
+.nav-collapse.opened {
+  max-height: 9999px;
+  background-color: #222b30; }
+
+.nav-toggle {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  color: white;
+  padding: 20px 2%;
+  display: block;
+  text-decoration: none;
+  background-color: #222b30; }
+
+@media screen and (min-width: 40em) {
+  .js .nav-collapse {
+    position: relative; }
+
+  .js .nav-collapse.closed {
+    max-height: none; }
+
+  .nav-toggle {
+    display: none; } }
+a {
+  color: #f17c21; }
+
+p {
+  margin-bottom: 1em;
+}
+
+
+body {
+  line-height: 1.7;
+  padding: 1.25em; 
+  font-family: helvetica,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #222b30;
+}
+
+h1 {
+  font-family: "coquette",helvetica;
+  font-style: normal;
+  font-weight: 700; 
+  font-size: 1.4em;
+}
+h2 {
+  font-family: "coquette",helvetica;
+  font-style: normal;
+  font-weight: 700;
+  color: #f17c21;
+  font-size: 2em;
+  margin-bottom: 1em;
+  margin-top: 1em; }
+
+h3 {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1em;
+  margin-bottom: .5em;
+  margin-top: 1em; }
+
+h4 {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: .08em;
+  margin-bottom: .5em;
+  margin-top: 1em;
+  margin-left: 1em; }
+
+header {
+  background: #f17c21; }
+
+nav {
+  background: #222b30; }
+
+.name {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  .name h1 {
+    color: white;
+    font-size: 3em;
+    padding: 1em 2%; }
+  .name img {
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 15%;
+    max-width: 50%; }
+
+.content {
+  margin-top: 2em;
+  margin-left: 2em; }
+
+.row {
+  overflow: hidden; }
+
+.home {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+  .home img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 75%;
+    min-width: 50%; }
+
+.footer-space {
+  width: 100%;
+  height: 25px; }
+
+footer {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: #222b30;
+  color: white; }
+
+@media screen and (min-width: 500px) {
+  .appetizers, .fajitas, .enchiladas, .dinners, .review, .contact {
+    width: 46%;
+    float: left;
+    overflow: hidden;
+    margin-left: 2%; } }
+
+/*# sourceMappingURL=style.css.map */
