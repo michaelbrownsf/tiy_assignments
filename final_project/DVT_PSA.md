@@ -27,61 +27,60 @@ Currently there are no direct competitors. No single site out there deals with t
 ## SWOT Analysis
 
 ###Strengths
-	*	I am personally affected by this malady
-	*	I have done a lot of research on this topic
-	*	I am able to tell a story that will inform and entertain
+*	I am personally affected by this malady
+*	I have done a lot of research on this topic
+*	I am able to tell a story that will inform and entertain
 
 ###Weaknesses
-	*	I am NOT a medical professional
-	*	I don't understand all the terms that are thrown around dealing with this topic
+*	I am NOT a medical professional
+*	I don't understand all the terms that are thrown around dealing with this topic
 
 ###Opportunities
-	*	I have the opportunity to share my story and spread the word about a topic near and dear to me
+*	I have the opportunity to share my story and spread the word about a topic near and dear to me
 
-	*	Provide a safe and non-threatening place for people to learn about this problem without being preachy or frightening
+*	Provide a safe and non-threatening place for people to learn about this problem without being preachy or frightening
 
 ###Threats
-	*	There is a LOT of information on the internet that is poorly sourced or scattered from one site to the next. Bringing in the best information and restructuring it and editing it down will be a big project if I don't impliment a content strategy
+*	There is a LOT of information on the internet that is poorly sourced or scattered from one site to the next. Bringing in the best information and restructuring it and editing it down will be a big project if I don't impliment a content strategy
 
 ## Keywords
 	Video, Infographic, medical jargon, blood, veins, circulatory system, risk factor, warning, PSA or public service announcement, Doctor, Hospital, nurse, medicine, lifestyle changes
 
 ## "This not that"
-	*	I am informative not scary.
-	*	I am standing not sitting.
-	*	I am videos and pictures not text only.
-	*	I am concise not wordy.
+*	I am informative not scary.
+*	I am standing not sitting.
+*	I am videos and pictures not text only.
+*	I am concise not wordy.
 
 ## Game Plan 
-	*	Devise a work schedule and adhere to it
-	*	Source my information and edit it
-	create any graphics needed to enhance my information
-	*	Create at least 3 style tiles
-	*	Begin wireframe/prototyping
-	*	Consistently ask for feedback
-	*	Choose the most appropriate color/font scheme
-	*	Sketch, sketch and sketch some more
-	*	Design an icon set and logo
-	*	Ask for more feedback
-	*	Choose the most appropriate layout and begin the code process
-	*	Ask for feedback again
-	*	Document document document
-	*	Begin the style guide
-	*	Finalize the pages of the site
-	*	Final calls for feedback
-	*	Begin the style guide
-	*	Create the final presentation
+*	Devise a work schedule and adhere to it
+*	Source my information and edit it
+create any graphics needed to enhance my information
+*	Create at least 3 style tiles
+*	Begin wireframe/prototyping
+*	Consistently ask for feedback
+*	Choose the most appropriate color/font scheme
+*	Sketch, sketch and sketch some more
+*	Design an icon set and logo
+*	Ask for more feedback
+*	Choose the most appropriate layout and begin the code process
+*	Ask for feedback again
+*	Document document document
+*	Begin the style guide
+*	Finalize the pages of the site
+*	Final calls for feedback
+*	Begin the style guide
+*	Create the final presentation
 
 ## Project Deliverables
-	*	10+ Sketches with 3 or more breakpoints
-	*	3 or more style tiles
-	*	Wireframes/rapid prototyping
-	*	No less than 4 HTML pages and 1 compiled SASS/CSS file for a site that is responsive with 3 sizes or breakpoints
-	*	Typography is em or REM based and images are flexible
-	*	One or more JQeury or JS plugin
-	*	3-5 icons for use on the site
-	*	Coded Style Guide
-	*	README.MD file of 400 words describing the concept and process used to create my github.io project
-	*	Time Sheet
-	*	Five minute presentation
-
+*	10+ Sketches with 3 or more breakpoints
+*	3 or more style tiles
+*	Wireframes/rapid prototyping
+*	No less than 4 HTML pages and 1 compiled SASS/CSS file for a site that is responsive with 3 sizes or breakpoints
+*	Typography is em or REM based and images are flexible
+*	One or more JQeury or JS plugin
+*	3-5 icons for use on the site
+*	Coded Style Guide
+*	README.MD file of 400 words describing the concept and process used to create my github.io project
+*	Time Sheet
+*	Five minute presentation
