@@ -1,5 +1,39 @@
 @import 'reset';
 @import 'responsive-nav';
+
+body{
+	font-family: 'Slabo 27px', serif;
+	color: #001a25;
+}
+
+p {
+	line-height: 1.6;
+	font-size: 1.6em;
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+
+h1 {
+
+	font-size: 3em;
+	font-size: 48px;
+	margin-bottom: 20px;
+	font-weight: 800;
+}
+
+h2 {
+	line-height: 1.6;
+	font-size: 1.6em;
+	font-size: 26px;
+	margin-bottom: 20px;
+	text-indent: 50px;
+
+}
+
+iframe {
+	margin-left: auto;
+	margin-right: auto;
+}
   
 header {
 	
