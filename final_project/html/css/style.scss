@@ -1,7 +1,6 @@
 @import 'reset';
 @import 'responsive-nav';
-
-
+  
 header {
 	
 	width: 100%;
@@ -16,6 +15,12 @@ header {
 	padding-top: 45px;
 }
 
+.logo {
+	border-radius: 65;
+	background-color: white;
+	position: relative;
+}
+
 .nav-collapse {
 	font-family: 'Slabo 27px', serif;
 	font-color: #ddd8ce;
@@ -23,8 +28,25 @@ header {
 	font-size: 24px;
 	box-sizing: border-box;
 	padding: 10px;
-
-		li {
-		margin: 10px;
-		}
 }
+
+.bg {
+	height: 500px;
+	background: url('../i/bg-light.jpg') no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;}
+
+ .content {
+
+ 	background-color: white;
+ 	width: 96%;
+ 	opacity: .5;
+ 	border-radius: 20;
+ 	margin-left: auto;
+ 	margin-right: auto;	
+ 	margin-top: 20px;
+ 	height: 100%;
+
+  }
