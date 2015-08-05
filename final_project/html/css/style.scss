@@ -81,7 +81,7 @@ div:last-child {
   $base-border-radius: 3px !default;
   $dark-gray: #ddd8ce !default;
   $large-screen: em(860) !default;
-  $base-font-color: #ddd8c3 !default;
+  $base-font-color: #dd2626 !default;
   $centered-navigation-padding: 1em;
   $centered-navigation-logo-height: 4em;
   $centered-navigation-background: #ddd8ce;
@@ -138,6 +138,7 @@ div:last-child {
     &:focus,
     &:hover {
       color: $centered-navigation-color-hover;
+
     }
   }
 
@@ -197,7 +198,9 @@ div:last-child {
 
       &:focus,
       &:hover {
-        color: $centered-navigation-color-hover;
+        color: #dd2626;
+
+
       }
     }
 
@@ -235,10 +238,6 @@ div:last-child {
 
     @include media($large-screen) {
       padding-right: $centered-navigation-submenu-padding;
-    }
-
-    > ul > li:first-child a  {
-      padding-top: 1em;
     }
 
     a {
@@ -329,7 +328,6 @@ div:last-child {
       }
 
       a {
-        background-color: darken($centered-navigation-background, 3%);
         display: inline-block;
         text-align: right;
         text-decoration: none;
@@ -380,7 +378,7 @@ body{
 
 .footer-2 {
   $base-spacing: 1.5em !default;
-  $action-color: #477DCA !default;
+  $action-color: #1a414c !default;
   $medium-screen: em(640) !default;
   $large-screen: em(860) !default;
   $footer-background: desaturate(darken($action-color, 20%), 30%);

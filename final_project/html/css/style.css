@@ -382,7 +382,7 @@ table {
       outline: none;
       text-decoration: none; }
       .centered-navigation ul li.nav-link a:focus, .centered-navigation ul li.nav-link a:hover {
-        color: #001a25; }
+        color: #dd2626; }
     @media screen and (min-width: 53.75em) {
       .centered-navigation ul li.nav-link {
         background: transparent;
@@ -406,8 +406,6 @@ table {
     @media screen and (min-width: 53.75em) {
       .centered-navigation li.more.nav-link {
         padding-right: 1em; } }
-    .centered-navigation li.more.nav-link > ul > li:first-child a {
-      padding-top: 1em; }
     .centered-navigation li.more.nav-link a {
       margin-right: 1em; }
     .centered-navigation li.more.nav-link > a {
@@ -469,7 +467,6 @@ table {
             border-bottom-right-radius: 3px;
             padding-bottom: .7em; } }
       .centered-navigation ul.submenu li a {
-        background-color: #d7d1c5;
         display: inline-block;
         text-align: right;
         text-decoration: none;
