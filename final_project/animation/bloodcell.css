@@ -43,7 +43,7 @@ body {
     transform:  translate(363px,133px)  rotate(0deg) ;
   }
   100% {
-    transform:  translate(23px,-475px)  rotate(180deg) ;
+    transform:  translate(260px,-475px)  rotate(180deg) ;
   }
 }
 
@@ -52,7 +52,7 @@ body {
     -moz-transform:  translate(363px,133px)  rotate(0deg) ;
   }
   100% {
-    -moz-transform:  translate(23px,-475px)  rotate(180deg) ;
+    -moz-transform:  translate(260px,-475px)  rotate(180deg) ;
   }
 }
 
@@ -61,7 +61,7 @@ body {
     -webkit-transform:  translate(363px,133px)  rotate(0deg) ;
   }
   100% {
-    -webkit-transform:  translate(23px,-475px)  rotate(180deg) ;
+    -webkit-transform:  translate(260px,-475px)  rotate(180deg) ;
   }
 }
 
@@ -70,7 +70,7 @@ body {
     -o-transform:  translate(363px,133px)  rotate(0deg) ;
   }
   100% {
-    -o-transform:  translate(23px,-475px)  rotate(180deg) ;
+    -o-transform:  translate(260px,-475px)  rotate(180deg) ;
   }
 }
 
@@ -79,7 +79,7 @@ body {
     -ms-transform:  translate(363px,133px)  rotate(0deg) ;
   }
   100% {
-    -ms-transform:  translate(23px,-475px)  rotate(180deg) ;
+    -ms-transform:  translate(260px,-475px)  rotate(180deg) ;
   }
 }
 .bloodcell2{
