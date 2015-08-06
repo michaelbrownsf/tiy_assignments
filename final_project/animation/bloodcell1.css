@@ -1,14 +1,15 @@
+img {
+
+  max-width: 100%;
+}
+
 body {
   margin: 0px;
 }
-.animation-field {
-  background: url("http://michaelbrownsf.github.io/tiy_assignments/final_project/animation/clot-animation.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  max-width: 100px;
-  height: auto;
-  z-index: -1;
-  overflow: hidden;
+.content {
+
+  max-width: 100%;
+  z-index: -1:
 }
 
 .bloodcell1{
