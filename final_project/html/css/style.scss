@@ -73,9 +73,13 @@ div:last-child {
 
 }
 
+@media screen and (min-width: 640px) {
 
 .bloodcell-animation {
-  background: url('/i/clot-animation.png');
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+  background: url('../i/clot-animation.png');
   background-size: 100%;
   background-repeat: no-repeat;
   width: 640px;
@@ -87,7 +91,7 @@ div:last-child {
 .bloodcell1{
   width: 70px;
   height: 70px;
-  background: url("/i/cell.png");
+  background: url("../i/cell.png");
   z-index: 1;
   animation: bloodcell1 linear 2s;
   animation-iteration-count: 1;
@@ -158,7 +162,7 @@ div:last-child {
 .bloodcell2{
   width: 70px;
   height: 70px;
-  background: url("cell.png");
+  background: url("../i/cell.png");
   z-index: 2;
   animation: bloodcell2 linear 3s;
   animation-iteration-count: 1;
@@ -227,7 +231,7 @@ div:last-child {
 .bloodcell3{
   width: 70px;
   height: 70px;
-  background: url("cell.png");
+  background: url("../i/cell.png");
   z-index: 3;
   animation: bloodcell3 linear 4s;
   animation-iteration-count: 1;
@@ -296,7 +300,7 @@ div:last-child {
 .bloodcell4{
   width: 70px;
   height: 70px;
-  background: url("cell.png");
+  background: url("../i/cell.png");
   z-index: 3;
   animation: bloodcell4 linear 5s;
   animation-iteration-count: 1;
@@ -366,7 +370,7 @@ div:last-child {
 .bloodcell5{
   width: 70px;
   height: 70px;
-  background: url("cell.png");
+  background: url("../i/cell.png");
   z-index: 5;
   animation: bloodcell5 linear 6s;
   animation-iteration-count: 1;
@@ -432,7 +436,7 @@ div:last-child {
     -ms-transform:  translate(260px,-635px)  rotate(590deg) ;
   }
 }
-
+}
 
 .hamburger {
 	font-size: 2em;
