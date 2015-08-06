@@ -1,36 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>DVTs and You</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/style.css">
-	<link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
-</head>
+	<head>
+		<meta charset="utf-8">
+		<title>DVT and You</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+		<link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<header><!-- <div class="logo"><img src="i/dvt-logo.png"> </div>-->DVT and You</header>
+	<div class="centered-navigation" role="banner">
+		<div class="centered-navigation-wrapper">
+			<!-- <a href="javascript:void(0)" class="mobile-logo">
+						<img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="Logo image">
+			</a> -->
+			<a href="javascript:void(0)" id="js-centered-navigation-mobile-menu" class="centered-navigation-mobile-menu pulse2"><span class="hamburger">☰</span></a>
+			<nav role="navigation">
+				<ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
+					<li class="nav-link more"><a href="javascript:void(0)" class="pulse2">home</a>
+					<ul class="submenu">
+						<li><a href="javascript:void(0)" class="pulse2">diagnosis</a></li>
+						<li><a href="javascript:void(0)">treatment</a></li></ul></li>
+						
+						<li class="nav-link"><a href="javascript:void(0)">my story</a></li>
+						<li class="nav-link"><a href="javascript:void(0)">resources</a></li>
+						
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</nav>
+</div>
+</div>
+<div class="hero3"><h1 align="center">Deep Vein Thrombosis</h1></div>
 
-<body>
+<h2>What is a clot?</h2>
 
+<section>
+<div class="col4">
+<p>Blood clotting is a normal, complex process that prevents excessive bleeding when a blood vessel is injured. Sometimes, clots from abnormally within a vein.</p></div>
 
-<header><!-- <div class="logo"><img src="i/dvt-logo.png"> --></div>DVTs and You
-</header>
-	<nav class="nav-collapse">
-	  <ul>
-	    <li><a href="index.html">home</a></li>
-	    <li><a href="#">resources</a></li>
-	    <li><a href="#">my story</a></li>
-	    <li><a href="#">videos</a></li>
-	  </ul>
-	  </nav>
+<div class="col8"><p>Veins are the blood vessels that carry blood back to the heart from the extremities, the abdomen, and the brain.</p>
 
-<div class="bg">
-<div class="opacity"><div class="content">
-<h1>What is a clot?</h1>
-<p>Blood clotting is a normal, complex process that prevents excessive bleeding when a blood vessel is injured. Sometimes, clots from abnormally within a vein.</p>
-
-<p>Veins are the blood vessels that carry blood back to the heart from the extremities, the abdomen, and the brain.</p>
-
-<p>Blood clots which form in the deep veins of the body lead to deep vein thrombosis (DVT) and pulmonary embolism (PE). When a clot forms in the deep veins of the body, it is called deep vein thrombosis, often referred to as DVT for short. DVT occurs most commonly in the leg; however, it can occur anywhere in the body, such as the veins in the arm, abdomen, pelvis, or around the brain.</p>
+<p>Blood clots which form in the deep veins of the body lead to deep vein thrombosis (DVT) and pulmonary embolism (PE). When a clot forms in the deep veins of the body, it is called deep vein thrombosis, often referred to as DVT for short. DVT occurs most commonly in the leg; however, it can occur anywhere in the body, such as the veins in the arm, abdomen, pelvis, or around the brain.</p></div></section>
 
 <p align="center"><link rel="stylesheet" type="text/css" href="http://michaelbrownsf.github.io/tiy_assignments/final_project/animation/iframe.css">
 <iframe src="http://michaelbrownsf.github.io/tiy_assignments/final_project/animation/" width="640" height="480" scrolling="no" frameborder="0">
@@ -41,19 +55,19 @@
 <p>A pulmonary embolism occurs when a blood clot breaks off from a DVT and travels through the blood stream and lodges in the lung. Occasionally, a PE forms in the lung itself, without there being evidence of DVT in arms, legs, pelvis or the big vein in the abdomen. DVT and PE are collectively known as VTE (venous thromboembolism). </p>
 <p>Clots that break off from a DVT and travel do not typically lead to stroke, as they get filtered out by the lung.</p>
 
-<p align="right"><a href="diagnosis.html">diagnosis</a></p>
+<div class="floats"><p align="right"><a href="diagnosis.html">diagnosis</a></p></div>
 </div>
 </div>
-</div>
 
-
-<footer><p align="right">an Iron Yard final project</p>
-
-
-
-<script src="js/responsive-nav.min.js"></script>
-<script>
-  var nav = responsiveNav(".nav-collapse");
-</script>
-</body>
+		<footer class="footer-2" role="contentinfo">
+			<div class="footer-logo">
+				<img src="i/heart.png" alt="Logo image">
+			</div>
+			<ul>
+				<li><a href="javascript:void(0)">an Iron Yard project</a></li>
+			</ul>
+			
+		</footer>
+		<script src="js/centered-nav.js"></script>
+	</body>
 </html>
