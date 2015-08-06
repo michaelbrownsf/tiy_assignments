@@ -46,26 +46,15 @@
 <div class="col8"><p>Veins are the blood vessels that carry blood back to the heart from the extremities, the abdomen, and the brain.</p>
 
 <p>Blood clots which form in the deep veins of the body lead to deep vein thrombosis (DVT) and pulmonary embolism (PE). When a clot forms in the deep veins of the body, it is called deep vein thrombosis, often referred to as DVT for short. DVT occurs most commonly in the leg; however, it can occur anywhere in the body, such as the veins in the arm, abdomen, pelvis, or around the brain.</p></div></section>
-<!-- Activate responsiveness in the "child" page -->
-<script src="/js/jquery.responsiveiframe.js"></script>
+
+<div id="example"></div>
+<script type="text/javascript" src="js/pym.js"></script>
 <script>
-  var ri = responsiveIframe();
-  ri.allowResponsiveEmbedding();
+    var pymParent = new pym.Parent('example', 'http://michaelbrownsf.github.io/tiy_assignments/final_project/animation/', {});
 </script>
-  
-<!-- Corresponding code in the "parent" page -->
-<script src="/js/jquery.js"></script>
-<script src="/js/jquery.responsiveiframe.js"></script>
-<script>
-  ;(function($){          
-      $(function(){
-        $('#myIframeID').responsiveIframe({ xdomain: '*'});
-      });        
-  })(jQuery);
-</script>
-<section><div class="col12"><p align="center"><link rel="stylesheet" type="text/css" href="http://michaelbrownsf.github.io/tiy_assignments/final_project/animation/iframe.css">
+<!-- <section><div class="col12"><p align="center"><link rel="stylesheet" type="text/css" href="http://michaelbrownsf.github.io/tiy_assignments/final_project/animation/iframe.css">
 <iframe src="http://michaelbrownsf.github.io/tiy_assignments/final_project/animation/" width="640" height="480" scrolling="no" frameborder="0">
-</iframe></p></div></section>
+</iframe></p></div></section> -->
 
 <div class="col8"><p>A potentially life-threatening complication of deep vein thrombosis (DVT) is pulmonary embolism, often referred to as PE. </p>
 
@@ -89,5 +78,6 @@
 			
 		</footer>
 		<script src="js/centered-nav.js"></script>
+
 	</body>
 </html>

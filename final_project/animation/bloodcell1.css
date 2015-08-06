@@ -5,8 +5,8 @@ body {
   background: url("clot-animation.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  width: 640px;
-  height: 480px;
+  max-width: 100px;
+  height: auto;
   z-index: -1;
   overflow: hidden;
 }
