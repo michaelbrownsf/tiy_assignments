@@ -1,8 +1,8 @@
 body {
   margin: 0px;
 }
-.content {
-  background: url("clot-animation.png");
+.animation-field {
+  background: url("http://michaelbrownsf.github.io/tiy_assignments/final_project/animation/clot-animation.png");
   background-size: 100%;
   background-repeat: no-repeat;
   max-width: 100px;
