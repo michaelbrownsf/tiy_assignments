@@ -255,6 +255,9 @@ table {
     box-sizing: border-box;
     float: left;
     padding: 3em; }
+    .col1 ul, .col1 li, .col2 ul, .col2 li, .col3 ul, .col3 li, .col4 ul, .col4 li, .col5 ul, .col5 li, .col6 ul, .col6 li, .col7 ul, .col7 li, .col8 ul, .col8 li, .col9 ul, .col9 li {
+      list-style-type: disc;
+      list-style-position: outside; }
     .col1 p, .col2 p, .col3 p, .col4 p, .col5 p, .col6 p, .col7 p, .col8 p, .col9 p {
       font-size: 1.6em;
       color: #001a25; }
@@ -297,6 +300,10 @@ table {
 
   div:last-child {
     margin-right: 0; } }
+.vertical {
+  display: inline-block;
+  vertical-align: middle; }
+
 .hamburger {
   font-size: 2em; }
 
@@ -487,15 +494,16 @@ a {
 .floats {
   min-width: 100%;
   float: left;
-  padding: 3em; }
+  padding-left: 50px;
+  padding-right: 50px; }
 
 .circle {
   margin-right: auto;
   margin-left: auto;
   min-width: 90%;
   max-width: 100%;
-  border-radius: 50%;
-  border: solid 10px #001a25; }
+  border-radius: 20px;
+  border: solid 5px #001a25; }
 
 .footer-2 {
   background: #40526b;
@@ -596,23 +604,19 @@ h3 {
   margin-bottom: 20px;
   font-weight: 800; }
 
-iframe {
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 15px; }
-
 header {
   width: 100%;
   min-height: 130px;
   background: #001a25;
   font-family: 'Titillium Web', sans-serif;
-  font-size: 4em;
-  font-size: 64px;
+  font-size: 3.5em;
+  font-size: 56px;
   font-weight: bold;
   color: #ddd8ce;
   box-sizing: border-box;
-  padding: 20px;
-  padding-top: 45px; }
+  padding-right: 30px; }
+  header img {
+    vertical-align: middle; }
 
 .logo {
   border-radius: 65;
@@ -656,6 +660,10 @@ header {
 .tiny {
   font-size: .7em;
   font-size: 12px; }
+
+.small p {
+  font-size: 1.1em;
+  font-size: 18px; }
 
 nav {
   font-size: 1.4em;
