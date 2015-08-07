@@ -255,9 +255,6 @@ table {
     box-sizing: border-box;
     float: left;
     padding: 3em; }
-    .col1 ul, .col1 li, .col2 ul, .col2 li, .col3 ul, .col3 li, .col4 ul, .col4 li, .col5 ul, .col5 li, .col6 ul, .col6 li, .col7 ul, .col7 li, .col8 ul, .col8 li, .col9 ul, .col9 li {
-      list-style-type: disc;
-      list-style-position: outside; }
     .col1 p, .col2 p, .col3 p, .col4 p, .col5 p, .col6 p, .col7 p, .col8 p, .col9 p {
       font-size: 1.6em;
       color: #001a25; }
@@ -609,8 +606,8 @@ header {
   min-height: 130px;
   background: #001a25;
   font-family: 'Titillium Web', sans-serif;
-  font-size: 3.5em;
-  font-size: 56px;
+  font-size: 3em;
+  font-size: 48px;
   font-weight: bold;
   color: #ddd8ce;
   box-sizing: border-box;
@@ -668,5 +665,9 @@ header {
 nav {
   font-size: 1.4em;
   font-size: 22px; }
+
+ul, li {
+  list-style-type: disc;
+  list-style-position: outside; }
 
 /*# sourceMappingURL=style.css.map */

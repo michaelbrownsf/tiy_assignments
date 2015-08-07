@@ -32,10 +32,6 @@ $gut: 1.754%;
   box-sizing: border-box;
   float: left;
   padding: 3em;
-   ul, li {
-     list-style-type: disc;
-     list-style-position: outside;
-}
 
   	p {
   	font-size: 1.6em;
@@ -564,8 +560,8 @@ header {
 	min-height: 130px;
 	background: #001a25;
 	font-family: 'Titillium Web', sans-serif;
-	font-size: 3.5em;
-	font-size: 56px;
+	font-size: 3em;
+	font-size: 48px;
 	font-weight: bold;
 	color: #ddd8ce;
 	box-sizing: border-box;
@@ -640,4 +636,9 @@ header {
 nav {
 	font-size: 1.4em;
 	font-size: 22px;
+}
+
+   ul, li {
+     list-style-type: disc;
+     list-style-position: outside;
 }
