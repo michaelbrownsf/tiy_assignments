@@ -744,4 +744,19 @@ ul, li {
   .accordion .is-expanded > a {
     color: red; }
 
+.video-wrapper {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  margin-bottom: 20px; }
+  .video-wrapper embed,
+  .video-wrapper object,
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%; }
+
 /*# sourceMappingURL=style.css.map */
