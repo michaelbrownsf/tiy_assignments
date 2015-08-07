@@ -32,10 +32,10 @@ $gut: 1.754%;
   float: left;
   padding: 3em;
 
-  	p {
-  	font-size: 1.6em;
-  	color: #001a25;
-  	}
+    p {
+    font-size: 1.6em;
+    color: #001a25;
+    }
 }
 
 .col1 {
@@ -77,7 +77,7 @@ div:last-child {
   vertical-align: middle;
 }
 .hamburger {
-	font-size: 2em;
+  font-size: 2em;
 }
 
 .centered-navigation {
@@ -183,7 +183,7 @@ div:last-child {
   }
 
   ul li.nav-link {
-  	font-size: 1.4em;
+    font-size: 1.4em;
     background: $centered-navigation-background;
     display: block;
     line-height: $centered-navigation-height;
@@ -349,28 +349,28 @@ div:last-child {
 
 
 body{
-	font-family: 'Slabo 27px', serif;
-	color: #001a25;
+  font-family: 'Slabo 27px', serif;
+  color: #001a25;
 }
 
 a {
-	color: #dd2626;
+  color: #dd2626;
 }
 
 .floats {
-	min-width: 100%;
-	float: left;
+  min-width: 100%;
+  float: left;
   padding-left: 50px;
   padding-right: 50px;
 
 }
 
 .circle {
-	margin-right: auto;
-	margin-left: auto;
-	width: 100%;
-	border-radius: 10px;
-	border: solid 5px #001a25;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  border-radius: 10px;
+  border: solid 5px #001a25;
 }
 
 .info-panel {
@@ -517,60 +517,60 @@ a {
 
 
 p {
-	line-height: 1.6;
-	font-size: 1.6em;
-	font-size: 26px;
-	margin-bottom: 20px;
+  line-height: 1.6;
+  font-size: 1.6em;
+  font-size: 26px;
+  margin-bottom: 20px;
 }
 
 .risks{
-	line-height: 1.6;
-	font-size: 1.1em;
-	font-size: 18px;
-	margin-bottom: 20px;
+  line-height: 1.6;
+  font-size: 1.1em;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 h1 {
-	color: #ddd8ce;
-	font-size: 3.5em;
-	font-size: 56px;
-	font-weight: bold;
+  color: #ddd8ce;
+  font-size: 3.5em;
+  font-size: 56px;
+  font-weight: bold;
   padding-top: 125px;
 }
 
 h2 {
-	line-height: 1.6;
-	font-size: 1.6em;
-	font-size: 26px;
-	margin-top: 60px;
-	margin-bottom: 20px;
-	font-weight: 800;
-	
+  line-height: 1.6;
+  font-size: 1.6em;
+  font-size: 26px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  
 
 }
 h3 {
-	line-height: 1.6;
-	font-size: 1.6em;
-	font-size: 26px;
-	margin-bottom: 20px;
-	font-weight: 800;
-	
+  line-height: 1.6;
+  font-size: 1.6em;
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  
 
 }
 
   
 header {
-	
-	width: 100%;
-	min-height: 130px;
-	background: #001a25;
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 3em;
-	font-size: 48px;
-	font-weight: bold;
-	color: #ddd8ce;
-	box-sizing: border-box;
-	padding-right: 30px;
+  
+  width: 100%;
+  min-height: 130px;
+  background: #001a25;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 3em;
+  font-size: 48px;
+  font-weight: bold;
+  color: #ddd8ce;
+  box-sizing: border-box;
+  padding-right: 30px;
 
       img{
         vertical-align: middle;        
@@ -578,31 +578,31 @@ header {
 }
 
 .logo {
-	border-radius: 65;
-	background-color: white;
-	position: relative;
+  border-radius: 65;
+  background-color: white;
+  position: relative;
 }
 
 
 .hero1 {
-	width: 100%;
-	height: 300px;
-	background: url('../i/bg-1.jpg') no-repeat center center fixed; 
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+  width: 100%;
+  height: 300px;
+  background: url('../i/bg-1.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 
 .hero2 {
-	width: 100%;
-	height: 300px;
-	background: url('../i/bg-2.jpg') no-repeat center center fixed; 
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+  width: 100%;
+  height: 300px;
+  background: url('../i/bg-2.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 
@@ -618,16 +618,16 @@ header {
 }
 
 .ultrasound {
-	padding-top: 100px;
-	max-width: 100%;
-	font-size: .7em;
-	font-size: 12px;
-	padding-bottom: 100px;
+  padding-top: 100px;
+  max-width: 100%;
+  font-size: .7em;
+  font-size: 12px;
+  padding-bottom: 100px;
 }
 
 .tiny {
-	font-size: .7em;
-	font-size: 12px;
+  font-size: .7em;
+  font-size: 12px;
 }
 
 .small {
@@ -639,8 +639,8 @@ header {
 
 
 nav {
-	font-size: 1.4em;
-	font-size: 22px;
+  font-size: 1.4em;
+  font-size: 22px;
 }
 
    ul, li {
@@ -691,7 +691,9 @@ nav {
     margin-left: $icon-bullet-size * 1.4;
     margin-bottom: 2em;
   }
-
+.bullet-text {
+  margin-bottom: 60px;
+}
   h2 {
     border-bottom: 1px solid transparentize($base-font-color, 0.8);
     display: inline-block;
@@ -745,4 +747,3 @@ nav {
     @include size(100%);
   }
 }
-
