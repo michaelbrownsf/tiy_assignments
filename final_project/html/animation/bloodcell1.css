@@ -133,7 +133,7 @@
 
 @-moz-keyframes bloodcell1{
   0% {
-    -moz-transform:  translate(400%,500%)  rotate(0deg) ;
+    -moz-transform:  translate(400%,700%)  rotate(0deg) ;
   }
   100% {
     -moz-transform: translate(350%,100%)  rotate(0deg) ;
@@ -142,7 +142,7 @@
 
 @-webkit-keyframes bloodcell1 {
   0% {
-    -webkit-transform: translate(400%,500%)   rotate(0deg) ;
+    -webkit-transform: translate(400%,700%)   rotate(0deg) ;
   }
   100% {
     -webkit-transform:  translate(350%,100%)  rotate(0deg) ;
@@ -151,7 +151,7 @@
 
 @-o-keyframes bloodcell1 {
   0% {
-    -o-transform:  translate(400%,500%) rotate(0deg) ;
+    -o-transform:  translate(400%,700%) rotate(0deg) ;
   }
   100% {
     -o-transform:  translate(350%,100%) rotate(0deg) ;
@@ -160,7 +160,7 @@
 
 @-ms-keyframes bloodcell1 {
   0% {
-    -ms-transform:  translate(400%,500%)  rotate(0deg) ;
+    -ms-transform:  translate(400%,700%)  rotate(0deg) ;
   }
   100% {
     -ms-transform:  translate(350%,100%) rotate(0deg) ;
@@ -180,7 +180,7 @@
 
 @-moz-keyframes bloodcell2 {
   0% {
-    -moz-transform:  translate(400%,500%)  rotate(0deg) ;
+    -moz-transform:  translate(400%,750%)  rotate(0deg) ;
   }
   100% {
     -moz-transform: translate(350%,100%)  rotate(0deg) ;
@@ -189,7 +189,7 @@
 
 @-webkit-keyframes bloodcell2 {
   0% {
-    -webkit-transform: translate(400%,500%)   rotate(0deg) ;
+    -webkit-transform: translate(400%,750%)   rotate(0deg) ;
   }
   100% {
     -webkit-transform:  translate(350%,100%)  rotate(0deg) ;
@@ -198,7 +198,7 @@
 
 @-o-keyframes bloodcell2 {
   0% {
-    -o-transform:  translate(400%,500%) rotate(0deg) ;
+    -o-transform:  translate(400%,750%) rotate(0deg) ;
   }
   100% {
     -o-transform:  translate(350%,100%) rotate(0deg) ;
@@ -207,7 +207,7 @@
 
 @-ms-keyframes bloodcell2 {
   0% {
-    -ms-transform:  translate(400%,500%)  rotate(0deg) ;
+    -ms-transform:  translate(400%,750%)  rotate(0deg) ;
   }
   100% {
     -ms-transform:  translate(350%,100%) rotate(0deg) ;
@@ -226,34 +226,34 @@
 
 @-moz-keyframes bloodcell3 {
   0% {
-    -moz-transform:  translate(400%,500%)  rotate(0deg) ;
+    -moz-transform:  translate(360%,720%)  rotate(0deg) ;
   }
   100% {
-    -moz-transform: translate(350%,100%)  rotate(0deg) ;
+    -moz-transform: translate(370%,100%)  rotate(0deg) ;
   }
 }
 
 @-webkit-keyframes bloodcell3 {
   0% {
-    -webkit-transform: translate(400%,500%)   rotate(0deg) ;
+    -webkit-transform: translate(360%,720%)   rotate(0deg) ;
   }
   100% {
-    -webkit-transform:  translate(350%,100%)  rotate(0deg) ;
+    -webkit-transform:  translate(370%,100%)  rotate(0deg) ;
   }
 }
 
 @-o-keyframes bloodcell3 {
   0% {
-    -o-transform:  translate(400%,500%) rotate(0deg) ;
+    -o-transform:  translate(360%,720%) rotate(0deg) ;
   }
   100% {
-    -o-transform:  translate(350%,100%) rotate(0deg) ;
+    -o-transform:  translate(370%,100%) rotate(0deg) ;
   }
 }
 
 @-ms-keyframes bloodcell3 {
   0% {
-    -ms-transform:  translate(400%,500%)  rotate(0deg) ;
+    -ms-transform:  translate(370%,100%)  rotate(0deg) ;
   }
   100% {
     -ms-transform:  translate(350%,100%) rotate(0deg) ;
@@ -272,16 +272,16 @@
 
 @-moz-keyframes bloodcell4 {
   0% {
-    -moz-transform:  translate(400%,500%)  rotate(0deg) ;
+    -moz-transform:  translate(400%,700%)  rotate(0deg) ;
   }
   100% {
-    -moz-transform: translate(350%,100%)  rotate(0deg) ;
+    -moz-transform: translate(400%,700%)  rotate(0deg) ;
   }
 }
 
 @-webkit-keyframes bloodcell4 {
   0% {
-    -webkit-transform: translate(400%,500%)   rotate(0deg) ;
+    -webkit-transform: translate(400%,700%)   rotate(0deg) ;
   }
   100% {
     -webkit-transform:  translate(350%,100%)  rotate(0deg) ;
@@ -290,7 +290,7 @@
 
 @-o-keyframes bloodcell4 {
   0% {
-    -o-transform:  translate(400%,500%) rotate(0deg) ;
+    -o-transform:  translate(400%,700%) rotate(0deg) ;
   }
   100% {
     -o-transform:  translate(350%,100%) rotate(0deg) ;
@@ -299,7 +299,7 @@
 
 @-ms-keyframes bloodcell4 {
   0% {
-    -ms-transform:  translate(400%,500%)  rotate(0deg) ;
+    -ms-transform:  translate(400%,700%)  rotate(0deg) ;
   }
   100% {
     -ms-transform:  translate(350%,100%) rotate(0deg) ;
