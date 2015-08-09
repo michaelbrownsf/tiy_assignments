@@ -296,6 +296,14 @@ table {
 
   div:last-child {
     margin-right: 0; } }
+.container {
+  line-height: 130px;
+  background-color: #001a25;
+  width: 100%;
+  padding-left: 50px;
+  color: #fff;
+  font-size: 48px; }
+
 .vertical {
   display: block;
   vertical-align: middle; }

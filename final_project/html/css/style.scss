@@ -19,7 +19,7 @@ $gut: 1.754%;
   padding: 2em;
 }
 
-@media screen and (min-width: 650px) { 
+@media screen and (min-width: 650px) {
 
  .container {
  width: 100%;
@@ -67,10 +67,20 @@ $gut: 1.754%;
 }
 div:last-child {
   margin-right: 0;
-  
+
 }
 
 }
+
+.container {
+	line-height: 130px;
+	background-color: #001a25;
+    width: 100%;
+    padding-left: 50px;
+    color: #fff;
+    font-size: 48px;
+}
+
 
 .vertical {
   display: block;
@@ -375,7 +385,7 @@ a {
 
 .info-panel {
   max-width: 100%;
-  background: #ddd8ce;   
+  background: #ddd8ce;
   margin-right: auto;
   margin-left: auto;
   border-radius: 10px;
@@ -435,13 +445,13 @@ a {
 
   .footer-logo img {
     height: 1.6em;
-  } 
+  }
 
   ul {
     line-height: 1.5em;
     margin: 0 0 1em 0;
     padding: 0;
-    
+
     @include media($large-screen) {
       float: left;
       line-height: 1.8em;
@@ -545,7 +555,7 @@ h2 {
   margin-top: 60px;
   margin-bottom: 20px;
   font-weight: 800;
-  
+
 
 }
 h3 {
@@ -554,13 +564,13 @@ h3 {
   font-size: 26px;
   margin-bottom: 20px;
   font-weight: 800;
-  
+
 
 }
 
-  
+
 header {
-  
+
   width: 100%;
   min-height: 130px;
   background: #001a25;
@@ -573,7 +583,7 @@ header {
   padding-right: 30px;
 
       img{
-        vertical-align: middle;        
+        vertical-align: middle;
 }
 }
 
@@ -587,7 +597,7 @@ header {
 .hero1 {
   width: 100%;
   height: 300px;
-  background: url('../i/bg-1.jpg') no-repeat center center fixed; 
+  background: url('../i/bg-1.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -598,7 +608,7 @@ header {
 .hero2 {
   width: 100%;
   height: 300px;
-  background: url('../i/bg-2.jpg') no-repeat center center fixed; 
+  background: url('../i/bg-2.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -609,7 +619,7 @@ header {
 .hero3 {
   width: 100%;
   height: 300px;
-  background: url('../i/bg-3.jpg') no-repeat center center fixed; 
+  background: url('../i/bg-3.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -715,10 +725,10 @@ nav {
     max-width: 100%;
   }
 }
-.accordion {  
+.accordion {
   > li > a {
     font-weight: normal;
-    
+
   }
 
   ul.submenu {
