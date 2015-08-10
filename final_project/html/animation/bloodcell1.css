@@ -305,3 +305,12 @@
     -ms-transform:  translate(350%,100%) rotate(0deg) ;
   }
 }
+
+.white {
+    background-color:  white;
+    width: 100%;
+    height: 100px;
+    z-index: 100;
+    float: left;
+
+}

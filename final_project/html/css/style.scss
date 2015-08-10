@@ -758,6 +758,12 @@ nav {
   }
 }
 
+.animation {
+    max-height: 480px;
+    max-width: 640px;
+
+}
+
 .animation-wrapper {
   height: 0;
   overflow: visible;
@@ -770,5 +776,4 @@ nav {
   iframe {
     @include position(absolute, 0px null null 0px);
     @include size(100%);
-  }
-}
+}}
