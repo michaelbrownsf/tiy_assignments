@@ -21,6 +21,7 @@ $gut: 1.754%;
   padding: 2em;
 }
 
+
 @media screen and (min-width:800px) {
 
  .container {
@@ -384,7 +385,7 @@ a {
 .circle {
   margin-right: auto;
   margin-left: auto;
-  width: 100%;
+  max-width: 100%;
   border-radius: 10px;
   border: solid 5px #001a25;
 }
@@ -548,6 +549,13 @@ h3 {
 
 }
 
+h6 {
+
+    font-size: 1em;
+    font-size:  16px;
+
+}
+
 
 header {
 
@@ -608,16 +616,13 @@ header {
 }
 
 .ultrasound {
-  padding-top: 100px;
+  padding-top: 55px;
   max-width: 100%;
-  font-size: .7em;
-  font-size: 12px;
-  padding-bottom: 100px;
 }
 
 .tiny {
-  font-size: .7em;
-  font-size: 12px;
+  font-size: .5em;
+  font-size: 8px;
 }
 
 .small {

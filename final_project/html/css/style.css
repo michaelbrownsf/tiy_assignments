@@ -504,7 +504,7 @@ a {
 .circle {
   margin-right: auto;
   margin-left: auto;
-  width: 100%;
+  max-width: 100%;
   border-radius: 10px;
   border: solid 5px #001a25; }
 
@@ -614,6 +614,10 @@ h3 {
   margin-bottom: 20px;
   font-weight: 800; }
 
+h6 {
+  font-size: 1em;
+  font-size: 16px; }
+
 header {
   width: 100%;
   min-height: 130px;
@@ -661,15 +665,12 @@ header {
   background-size: cover; }
 
 .ultrasound {
-  padding-top: 100px;
-  max-width: 100%;
-  font-size: .7em;
-  font-size: 12px;
-  padding-bottom: 100px; }
+  padding-top: 55px;
+  max-width: 100%; }
 
 .tiny {
-  font-size: .7em;
-  font-size: 12px; }
+  font-size: .5em;
+  font-size: 8px; }
 
 .small p {
   font-size: 1.1em;
