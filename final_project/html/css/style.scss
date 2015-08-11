@@ -85,7 +85,11 @@ div:last-child {
     width: 100%;
     padding-left: 50px;
     color: #fff;
-    font-size: 48px;
+    //
+            p {
+
+                font-size: 48px;
+            }
 }
 
 
@@ -522,17 +526,19 @@ p {
 }
 
 h1 {
-  color: #ddd8ce;
-  font-size: 3.5em;
-  font-size: 56px;
-  font-weight: bold;
-  padding-top: 125px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 48px;
+    font-size: 3em;
+    font-weight: bold;
+    color: #ddd8ce;
+  padding-left: 15px;
+  float: left;
 }
 
 h2 {
   line-height: 1.6;
-  font-size: 1.6em;
   font-size: 26px;
+    font-size: 1.6em;
   margin-top: 60px;
   margin-bottom: 20px;
   font-weight: 800;
@@ -556,6 +562,17 @@ h4 {   line-height: 1.6;
   font-weight: bold;
 }
 
+h5 {
+        font-family: 'Slabo 27px', serif;
+        line-height: 300px;
+        font-size: 48px;
+        font-size: 3em;
+        font-weight: bold;
+        color: #ddd8ce;
+      padding-left: 15px;
+    text-align: center;
+    }
+
 h6 {
 
     font-size: 1em;
@@ -569,11 +586,6 @@ header {
   width: 100%;
   min-height: 130px;
   background: #001a25;
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 3em;
-  font-size: 48px;
-  font-weight: bold;
-  color: #ddd8ce;
   box-sizing: border-box;
   padding-right: 30px;
 
@@ -583,8 +595,8 @@ header {
 }
 
 .logo {
-  border-radius: 65;
-  background-color: white;
+    width: 80px;
+    float: left;
   position: relative;
 }
 
@@ -740,6 +752,8 @@ nav {
     display: block;
   }
 }
+
+
 .video-wrapper {
   height: 0;
   overflow: hidden;
