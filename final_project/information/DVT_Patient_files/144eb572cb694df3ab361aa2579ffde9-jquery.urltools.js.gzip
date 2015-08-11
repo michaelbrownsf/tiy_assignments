@@ -1,0 +1,1 @@
+(function(n){n.extend({getQueryString:function(n){function t(){for(var t={},n,r=/\+/g,u=/([^&=]+)=?([^&]*)/g,i=function(n){return decodeURIComponent(n.replace(r," "))},f=window.location.search.substring(1);n=u.exec(f);)t[i(n[1])]=i(n[2]);return t}return this.queryStringParams||(this.queryStringParams=t()),this.queryStringParams[n]}})})(jQuery)

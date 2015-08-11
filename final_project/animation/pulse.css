@@ -1,0 +1,79 @@
+body {
+  margin: 0px;
+}
+
+.greenline {
+  z-index: -1;
+  margin-top: 35px;
+  width: 100%;
+  height: 5px;
+  background-color: green;
+}
+
+.pulse{
+  z-index: 1000;
+  top: 100px;
+  width: 74px;
+  height: 85px;
+  background: url("pulse.png");
+  animation: pulse linear 2.7s;
+  animation-iteration-count: 100;
+  transform-origin: 50% 50%;
+  -webkit-animation: pulse linear 2s;
+  -webkit-animation-iteration-count: 100;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: pulse linear 4s;
+  -moz-animation-iteration-count: 100;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: pulse linear 4s;
+  -o-animation-iteration-count: 100;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: pulse linear 4s;
+  -ms-animation-iteration-count: 100;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes pulse{
+  0% {
+    transform:  translate(-50px,70px)  ;
+  }
+  100% {
+    transform:  translate(1000px,70px)  ;
+  }
+}
+
+@-moz-keyframes pulse{
+  0% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  100% {
+    -moz-transform:  translate(775px,0px)  ;
+  }
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(775px,0px)  ;
+  }
+}
+
+@-o-keyframes pulse {
+  0% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+  100% {
+    -o-transform:  translate(775px,0px)  ;
+  }
+}
+
+@-ms-keyframes pulse {
+  0% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+  100% {
+    -ms-transform:  translate(775px,0px)  ;
+  }
+}

@@ -1,0 +1,140 @@
+@import 'reset';
+@import 'responsive-nav';
+
+a {
+
+	color: rgba(196, 217, 97, 1);
+}
+
+body {
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #222b30;
+	background-color: rgba(196, 217, 97, 0.2);
+}
+
+
+h1 {
+
+	font-family: "coquette",fantasy;
+	font-style: normal;
+	font-weight: 700;
+
+}
+
+h2 {
+
+	font-family: "coquette",fantasy;
+	font-style: normal;
+	font-weight: 700;
+	color: #f17c21;
+	font-size: 2em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+
+}
+
+
+h3 {
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1em;
+	margin-bottom: .5em;
+	margin-top: 1em;
+
+}
+
+h4 {
+	font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: .08em;
+	margin-bottom: .5em;
+	margin-top: 1em;	
+	margin-left: 1em;
+
+
+}
+header {
+	background: #f17c21;
+	
+
+}
+
+nav {
+	background: #222b30;
+}
+
+.name {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	
+	h1 {
+		color: white;
+		font-size: 3em;
+		padding: 1em 2%;
+
+	}
+
+	img { 
+		vertical-align: middle;
+		margin-right: 10px;
+		margin-left: 10px;	
+		width: 15%;
+		max-width: 50%;
+	}
+}
+
+.content {
+
+	margin-top: 2em;
+	margin-left: 2em;
+}
+
+.row {
+	overflow: hidden;
+}
+
+.home {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+
+	img {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		max-width: 75%;
+		min-width: 50%;
+
+	}
+}
+
+
+.footer-space {
+
+	width: 100%;
+	height: 25px;
+}
+
+footer {
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background: #222b30;
+	color: white;
+}
+
+@media screen and (min-width: 500px) {
+
+	.appetizers, .fajitas, .enchiladas, .dinners, .review, .contact, {
+		width: 46%;
+		float: left;
+		overflow: hidden;
+		margin-left: 2%
+		}
+
+	}
