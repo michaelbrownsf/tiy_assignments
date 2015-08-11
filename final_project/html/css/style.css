@@ -679,9 +679,13 @@ header {
   font-size: .5em;
   font-size: 8px; }
 
-.small p {
-  font-size: 1.1em;
-  font-size: 18px; }
+.small {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 15px; }
+
+.trearment-icon {
+  width: 50%; }
 
 nav {
   font-size: 1.4em;
