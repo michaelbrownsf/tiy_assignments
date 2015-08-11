@@ -1,0 +1,74 @@
+/*! responsive-nav.js 1.0.39 by @viljamis */
+.nav-collapse {
+  background-color: #222b30;
+}
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+  overflow: hidden;
+  background-color: #222b30;
+}
+
+.nav-collapse li {
+
+  float: left;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #222b30;
+}
+
+.nav-collapse a {
+  color: #ddd8ce;
+  text-decoration: none;
+  background-color: #222b30;
+
+}
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+  background-color: #222b30;
+
+}
+
+.nav-collapse.opened {
+  max-height: 9999px;
+   background-color: #222b30;
+}
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  color: white;
+  padding: 20px 2%;
+  display: block;
+  text-decoration: none;
+  background-color: #222b30;
+}
+
+
+@media screen and (min-width: 40em) {
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+}

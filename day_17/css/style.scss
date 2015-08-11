@@ -575,6 +575,7 @@ footer {
         margin-bottom: 50px;
         margin-top: 50px;
     }
+    }
     .popular {
         max-width: 1300px;
         width: 100%;
@@ -654,7 +655,20 @@ footer {
         font-size: 20px;
         width: 100%;
     }
+<<<<<<< HEAD
+    .foot {
+    	 background: #083452;
+        // margin-top: 30px;
+        vertical-align: middle;
+        // padding-left: 160px;
+        // text-align: left;
+        // float: left;
+
+    }
+
+=======
 }
+>>>>>>> f79ce2265b6e4416bb002538a3b1b3026fdb635b
 
 @media (min-width: 900px) {
     img {
@@ -706,7 +720,7 @@ footer {
         text-align: center;
         color: white;
         // padding-top: 150px;
-   
+
     }
     .bodytext {
         font-size: 16px;
